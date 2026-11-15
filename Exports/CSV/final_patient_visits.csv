@@ -1,0 +1,201 @@
+visit_id,patient_id,visit_date,icd_code,cpt_code,icd_code_clean,icd_code_description,date_of_birth,patient_sex,dob_age,age_bracket
+V000001,PT00001,2022-03-15,I10,12345,I10,Essential (primary) hypertension,1956-07-22,Male,68,65+
+V000002,PT00002,2022-04-22,E11.9,23456,E119,Type 2 diabetes mellitus without complications,1982-11-05,Female,42,40-64
+V000003,PT00003,2022-05-10,J45.909,34567,J45909,"Unspecified asthma, uncomplicated",1978-02-14,Male,46,40-64
+V000004,PT00004,2023-01-18,N39.0,45678,N390,"Urinary tract infection, site not specified",2004-09-02,Female,20,18-39
+V000005,PT00005,2023-07-30,I25.110,56789,I25110,Athscl heart disease of native cor art w unstable ang pctrs,1948-03-19,Male,76,65+
+V000006,PT00006,2023-11-12,F32.9,67890,F329,"Major depressive disorder, single episode, unspecified",1988-06-21,Female,36,18-39
+V000007,PT00007,2024-02-08,M54.5,78901,M545,Low back pain,1992-08-15,Female,32,18-39
+V000008,PT00008,2024-03-23,K21.9,89012,K219,Gastro-esophageal reflux disease without esophagitis ,1970-12-01,Male,54,40-64
+V000009,PT00009,2022-09-14,E78.5,90123,E785,"Hyperlipidemia, unspecified",1960-04-28,Female,64,40-64
+V000010,PT00010,2022-12-07,F41.1,91234,F411,Generalized anxiety disorder,1985-05-30,Male,39,18-39
+V000011,PT00011,2023-02-19,I10,92345,I10,Essential (primary) hypertension,1975-01-10,Female,49,40-64
+V000012,PT00012,2023-04-05,E11.65,93456,E1165,Type 2 diabetes mellitus with hyperglycemia,1990-09-25,Male,34,18-39
+V000013,PT00013,2023-08-21,J11.1,94567,J111,Flu due to unidentified influenza virus w oth resp manifest,1968-03-03,Female,56,40-64
+V000014,PT00014,2024-01-11,M19.90,95678,M1990,"Unspecified osteoarthritis, unspecified site",1983-07-19,Male,41,40-64
+V000015,PT00015,2024-05-29,I48.91,96789,I4891,Unspecified atrial fibrillation,1952-10-02,Female,72,65+
+V000016,PT00016,2022-08-03,N20.0,97890,N200,Calculus of kidney,1979-02-28,Male,45,40-64
+V000017,PT00017,2022-10-15,G43.909,98901,G43909,"Migraine, unsp, not intractable, without status migrainosus",1962-11-12,Female,62,40-64
+V000018,PT00018,2023-03-02,Z00.00,99012,Z0000,Encntr for general adult medical exam w/o abnormal findings,1994-06-17,Female,30,18-39
+V000019,PT00019,2023-09-09,N39.0,99123,N390,"Urinary tract infection, site not specified",1987-04-03,Female,37,18-39
+V000020,PT00020,2024-06-18,E66.9,99234,E669,"Obesity, unspecified",1959-12-25,Male,65,65+
+V000101,PT00001,2022-03-15,I10,12345,I10,Essential (primary) hypertension,1956-07-22,Male,68,65+
+V000102,PT00002,2022-04-22,E11.9,23456,E119,Type 2 diabetes mellitus without complications,1982-11-05,Female,42,40-64
+V000103,PT00003,2023-01-05,J45.909,34567,J45909,"Unspecified asthma, uncomplicated",1978-02-14,Male,46,40-64
+V000104,PT00004,2022-09-11,I25.10,45678,I2510,Athscl heart disease of native coronary artery w/o ang pctrs,2004-09-02,Female,20,18-39
+V000105,PT00005,2024-02-17,K21.9,56789,K219,Gastro-esophageal reflux disease without esophagitis ,1948-03-19,Male,76,65+
+V000106,PT00006,2023-07-30,N39.0,67890,N390,"Urinary tract infection, site not specified",1988-06-21,Female,36,18-39
+V000107,PT00007,2022-11-19,E78.5,78901,E785,"Hyperlipidemia, unspecified",1992-08-15,Female,32,18-39
+V000108,PT00008,2024-05-28,F32.9,89012,F329,"Major depressive disorder, single episode, unspecified",1970-12-01,Male,54,40-64
+V000109,PT00009,2023-08-04,M54.5,90123,M545,Low back pain,1960-04-28,Female,64,40-64
+V000110,PT00010,2022-01-09,I21.9,1234,I219,"Acute myocardial infarction, unspecified",1985-05-30,Male,39,18-39
+V000111,PT00011,2023-10-12,A41.9,11223,A419,"Sepsis, unspecified organism",1975-01-10,Female,49,40-64
+V000112,PT00012,2024-03-29,D64.9,22334,D649,"Anemia, unspecified",1990-09-25,Male,34,18-39
+V000113,PT00013,2022-08-07,I50.9,33445,I509,"Heart failure, unspecified",1968-03-03,Female,56,40-64
+V000114,PT00014,2024-09-16,N18.9,44556,N189,"Chronic kidney disease, unspecified",1983-07-19,Male,41,40-64
+V000115,PT00015,2022-12-25,G43.909,55667,G43909,"Migraine, unsp, not intractable, without status migrainosus",1952-10-02,Female,72,65+
+V000116,PT00016,2023-02-14,Z00.129,66778,Z00129,Encounter for routine child health examination without abnormal findings,1979-02-28,Male,45,40-64
+V000117,PT00017,2023-06-07,E03.9,77889,E039,"Hypothyroidism, unspecified",1962-11-12,Female,62,40-64
+V000118,PT00018,2022-05-02,F41.1,88990,F411,Generalized anxiety disorder,1994-06-17,Female,30,18-39
+V000119,PT00019,2024-04-03,C50.912,99001,C50912,Malignant neoplasm of unspecified site of left female breast,1987-04-03,Female,37,18-39
+V000120,PT00020,2022-07-18,J06.9,99002,J069,"Acute upper respiratory infection, unspecified",1959-12-25,Male,65,65+
+V000101,PT00001,2022-03-15,I10,54123,I10,Essential (primary) hypertension,1956-07-22,Male,68,65+
+V000102,PT00002,2022-05-22,E11.9,99213,E119,Type 2 diabetes mellitus without complications,1982-11-05,Female,42,40-64
+V000103,PT00003,2023-01-10,J45.909,99214,J45909,"Unspecified asthma, uncomplicated",1978-02-14,Male,46,40-64
+V000104,PT00004,2022-11-07,F41.9,36415,F419,"Anxiety disorder, unspecified",2004-09-02,Female,20,18-39
+V000105,PT00005,2023-07-19,I25.10,99212,I2510,Athscl heart disease of native coronary artery w/o ang pctrs,1948-03-19,Male,76,65+
+V000106,PT00006,2024-02-28,N39.0,99203,N390,"Urinary tract infection, site not specified",1988-06-21,Female,36,18-39
+V000107,PT00007,2022-09-14,K21.9,99211,K219,Gastro-esophageal reflux disease without esophagitis ,1992-08-15,Female,32,18-39
+V000108,PT00008,2023-04-03,M54.5,99215,M545,Low back pain,1970-12-01,Male,54,40-64
+V000109,PT00009,2024-06-10,E78.5,99204,E785,"Hyperlipidemia, unspecified",1960-04-28,Female,64,40-64
+V000110,PT00010,2022-12-01,H52.1,92112,H521,Myopia (nearsightedness),1985-05-30,Male,39,18-39
+V000111,PT00011,2023-09-27,F32.9,90870,F329,"Major depressive disorder, single episode, unspecified",1975-01-10,Female,49,40-64
+V000112,PT00012,2022-06-18,I64,99214,I64,"Stroke, not specified as haemorrhage or infarction",1990-09-25,Male,34,18-39
+V000113,PT00013,2024-03-22,C50.911,99213,C50911,Malignant neoplasm of unsp site of right female breast,1968-03-03,Female,56,40-64
+V000114,PT00014,2023-08-05,Z00.00,99212,Z0000,Encntr for general adult medical exam w/o abnormal findings,1983-07-19,Male,41,40-64
+V000115,PT00015,2022-10-30,I10,99204,I10,Essential (primary) hypertension,1952-10-02,Female,72,65+
+V000116,PT00016,2024-05-16,E66.9,99213,E669,"Obesity, unspecified",1979-02-28,Male,45,40-64
+V000117,PT00017,2022-08-09,N80.0,99202,N800,Endometriosis of uterus,1962-11-12,Female,62,40-64
+V000118,PT00018,2023-11-01,M17.11,99395,M1711,"Unilateral primary osteoarthritis, right knee",1994-06-17,Female,30,18-39
+V000119,PT00019,2024-09-12,J02.9,99283,J029,"Acute pharyngitis, unspecified",1987-04-03,Female,37,18-39
+V000120,PT00020,2022-02-28,R53.1,99232,R531,Weakness,1959-12-25,Male,65,65+
+V000001,PT00001,2022-03-15,I10,10123,I10,Essential (primary) hypertension,1956-07-22,Male,68,65+
+V000002,PT00002,2022-05-20,E11.9,10234,E119,Type 2 diabetes mellitus without complications,1982-11-05,Female,42,40-64
+V000003,PT00003,2022-07-02,J45.909,10345,J45909,"Unspecified asthma, uncomplicated",1978-02-14,Male,46,40-64
+V000004,PT00004,2022-09-11,I25.10,10456,I2510,Athscl heart disease of native coronary artery w/o ang pctrs,2004-09-02,Female,20,18-39
+V000005,PT00005,2022-12-01,K21.9,10567,K219,Gastro-esophageal reflux disease without esophagitis ,1948-03-19,Male,76,65+
+V000006,PT00006,2023-02-14,F32.9,10678,F329,"Major depressive disorder, single episode, unspecified",1988-06-21,Female,36,18-39
+V000007,PT00007,2023-04-28,N39.0,10789,N390,"Urinary tract infection, site not specified",1992-08-15,Female,32,18-39
+V000008,PT00008,2023-06-18,M54.5,10890,M545,Low back pain,1970-12-01,Male,54,40-64
+V000009,PT00009,2023-08-05,E78.5,10901,E785,"Hyperlipidemia, unspecified",1960-04-28,Female,64,40-64
+V000010,PT00010,2023-10-22,I10,11012,I10,Essential (primary) hypertension,1985-05-30,Male,39,18-39
+V000011,PT00011,2023-11-30,J02.9,11123,J029,"Acute pharyngitis, unspecified",1975-01-10,Female,49,40-64
+V000012,PT00012,2024-01-17,M81.0,11234,M810,Age-related osteoporosis w/o current pathological fracture,1990-09-25,Male,34,18-39
+V000013,PT00013,2024-03-09,G43.909,11345,G43909,"Migraine, unsp, not intractable, without status migrainosus",1968-03-03,Female,56,40-64
+V000014,PT00014,2024-05-25,Z00.00,11456,Z0000,Encntr for general adult medical exam w/o abnormal findings,1983-07-19,Male,41,40-64
+V000015,PT00015,2022-01-26,I50.9,11567,I509,"Heart failure, unspecified",1952-10-02,Female,72,65+
+V000016,PT00016,2022-03-14,E11.65,11678,E1165,Type 2 diabetes mellitus with hyperglycemia,1979-02-28,Male,45,40-64
+V000017,PT00017,2023-07-07,C43.9,11789,C439,"Malignant melanoma of skin, unspecified",1962-11-12,Female,62,40-64
+V000018,PT00018,2024-09-19,F41.1,11890,F411,Generalized anxiety disorder,1994-06-17,Female,30,18-39
+V000019,PT00019,2024-11-03,K35.80,11901,K3580,Unspecified acute appendicitis,1987-04-03,Female,37,18-39
+V000020,PT00020,2024-12-18,N418,12012,N418,Other inflammatory diseases of prostate,1959-12-25,Male,65,65+
+V000001,PT00001,2022-03-15,I10,10001,I10,Essential (primary) hypertension,1956-07-22,Male,68,65+
+V000002,PT00002,2022-04-02,E11.9,10002,E119,Type 2 diabetes mellitus without complications,1982-11-05,Female,42,40-64
+V000003,PT00003,2022-05-20,J45.909,10003,J45909,"Unspecified asthma, uncomplicated",1978-02-14,Male,46,40-64
+V000004,PT00004,2023-01-13,I25.10,10004,I2510,Athscl heart disease of native coronary artery w/o ang pctrs,2004-09-02,Female,20,18-39
+V000005,PT00005,2023-02-28,F32.9,10005,F329,"Major depressive disorder, single episode, unspecified",1948-03-19,Male,76,65+
+V000006,PT00006,2023-03-10,N18.9,10006,N189,"Chronic kidney disease, unspecified",1988-06-21,Female,36,18-39
+V000007,PT00007,2023-04-25,K35.80,10007,K3580,Unspecified acute appendicitis,1992-08-15,Female,32,18-39
+V000008,PT00008,2024-06-07,M54.5,10008,M545,Low back pain,1970-12-01,Male,54,40-64
+V000009,PT00009,2022-09-19,G43.909,10009,G43909,"Migraine, unsp, not intractable, without status migrainosus",1960-04-28,Female,64,40-64
+V000010,PT00010,2022-11-04,J02.9,10010,J029,"Acute pharyngitis, unspecified",1985-05-30,Male,39,18-39
+V000011,PT00011,2023-07-21,E78.5,10011,E785,"Hyperlipidemia, unspecified",1975-01-10,Female,49,40-64
+V000012,PT00012,2023-10-12,I10,10012,I10,Essential (primary) hypertension,1990-09-25,Male,34,18-39
+V000013,PT00013,2024-01-08,F41.1,10013,F411,Generalized anxiety disorder,1968-03-03,Female,56,40-64
+V000014,PT00014,2024-03-30,M25.50,10014,M2550,Pain in unspecified joint,1983-07-19,Male,41,40-64
+V000015,PT00015,2022-08-16,I64.9,10015,I649,"Stroke, not specified as haemorrhage or infarction",1952-10-02,Female,72,65+
+V000016,PT00016,2023-06-05,G47.00,10016,G4700,"Insomnia, unspecified",1979-02-28,Male,45,40-64
+V000017,PT00017,2023-12-12,N39.0,10017,N390,"Urinary tract infection, site not specified",1962-11-12,Female,62,40-64
+V000018,PT00018,2024-02-22,R53.1,10018,R531,Weakness,1994-06-17,Female,30,18-39
+V000019,PT00019,2024-04-18,C50.912,10019,C50912,Malignant neoplasm of unspecified site of left female breast,1987-04-03,Female,37,18-39
+V000020,PT00020,2022-12-31,E03.9,10020,E039,"Hypothyroidism, unspecified",1959-12-25,Male,65,65+
+V000001,PT00001,2022-03-15,I10,12345,I10,Essential (primary) hypertension,1956-07-22,Male,68,65+
+V000002,PT00002,2022-04-20,E11.9,23456,E119,Type 2 diabetes mellitus without complications,1982-11-05,Female,42,40-64
+V000003,PT00003,2022-06-02,J45.909,34567,J45909,"Unspecified asthma, uncomplicated",1978-02-14,Male,46,40-64
+V000004,PT00004,2022-07-18,I25.10,45678,I2510,Athscl heart disease of native coronary artery w/o ang pctrs,2004-09-02,Female,20,18-39
+V000005,PT00005,2022-08-09,K21.9,56789,K219,Gastro-esophageal reflux disease without esophagitis ,1948-03-19,Male,76,65+
+V000006,PT00006,2022-09-28,E78.5,67890,E785,"Hyperlipidemia, unspecified",1988-06-21,Female,36,18-39
+V000007,PT00007,2022-11-03,N18.9,78901,N189,"Chronic kidney disease, unspecified",1992-08-15,Female,32,18-39
+V000008,PT00008,2023-01-12,F32.9,89012,F329,"Major depressive disorder, single episode, unspecified",1970-12-01,Male,54,40-64
+V000009,PT00009,2023-02-27,M54.5,90123,M545,Low back pain,1960-04-28,Female,64,40-64
+V000010,PT00010,2023-04-04,I10,1234,I10,Essential (primary) hypertension,1985-05-30,Male,39,18-39
+V000011,PT00011,2023-05-19,E11.65,11223,E1165,Type 2 diabetes mellitus with hyperglycemia,1975-01-10,Female,49,40-64
+V000012,PT00012,2023-07-30,J06.9,22334,J069,"Acute upper respiratory infection, unspecified",1990-09-25,Male,34,18-39
+V000013,PT00013,2023-08-25,I21.9,33445,I219,"Acute myocardial infarction, unspecified",1968-03-03,Female,56,40-64
+V000014,PT00014,2023-09-11,E78.0,44556,E780,Pure hypercholesterolemia,1983-07-19,Male,41,40-64
+V000015,PT00015,2023-10-02,C34.91,55667,C3491,Malignant neoplasm of unsp part of right bronchus or lung,1952-10-02,Female,72,65+
+V000016,PT00016,2023-11-18,M19.9,66778,M199,"Osteoarthritis, unspecified site",1979-02-28,Male,45,40-64
+V000017,PT00017,2023-12-05,G43.909,77889,G43909,"Migraine, unsp, not intractable, without status migrainosus",1962-11-12,Female,62,40-64
+V000018,PT00018,2024-01-21,N39.0,88990,N390,"Urinary tract infection, site not specified",1994-06-17,Female,30,18-39
+V000001,PT00001,2022-03-15,I10,12345,I10,Essential (primary) hypertension,1956-07-22,Male,68,65+
+V000002,PT00002,2022-04-10,E11.9,23456,E119,Type 2 diabetes mellitus without complications,1982-11-05,Female,42,40-64
+V000003,PT00003,2022-05-22,J45.909,34567,J45909,"Unspecified asthma, uncomplicated",1978-02-14,Male,46,40-64
+V000004,PT00004,2023-01-08,K21.9,45678,K219,Gastro-esophageal reflux disease without esophagitis ,2004-09-02,Female,20,18-39
+V000005,PT00005,2023-02-19,Z00.121,56789,Z00121,Encounter for routine child health examination with abnormal findings,1948-03-19,Male,76,65+
+V000006,PT00006,2023-03-30,I25.10,67890,I2510,Athscl heart disease of native coronary artery w/o ang pctrs,1988-06-21,Female,36,18-39
+V000007,PT00007,2023-04-15,F41.1,78901,F411,Generalized anxiety disorder,1992-08-15,Female,32,18-39
+V000008,PT00008,2023-05-07,M54.5,89012,M545,Low back pain,1970-12-01,Male,54,40-64
+V000009,PT00009,2024-01-12,I10,90123,I10,Essential (primary) hypertension,1960-04-28,Female,64,40-64
+V000010,PT00010,2024-02-28,E66.9,11234,E669,"Obesity, unspecified",1985-05-30,Male,39,18-39
+V000011,PT00011,2024-03-14,N39.0,22345,N390,"Urinary tract infection, site not specified",1975-01-10,Female,49,40-64
+V000012,PT00012,2022-09-05,C50.911,33456,C50911,Malignant neoplasm of unsp site of right female breast,1990-09-25,Male,34,18-39
+V000013,PT00013,2022-10-22,I64.9,44567,I649,"Stroke, not specified as haemorrhage or infarction",1968-03-03,Female,56,40-64
+V000014,PT00014,2023-11-30,E78.5,55678,E785,"Hyperlipidemia, unspecified",1983-07-19,Male,41,40-64
+V000015,PT00015,2024-04-09,J02.9,66789,J029,"Acute pharyngitis, unspecified",1952-10-02,Female,72,65+
+V000016,PT00016,2023-06-18,K80.20,77890,K8020,Calculus of gallbladder w/o cholecystitis w/o obstruction,1979-02-28,Male,45,40-64
+V000017,PT00017,2024-07-21,M81.0,88901,M810,Age-related osteoporosis w/o current pathological fracture,1962-11-12,Female,62,40-64
+V000018,PT00018,2022-12-03,F32.9,99012,F329,"Major depressive disorder, single episode, unspecified",1994-06-17,Female,30,18-39
+V000019,PT00019,2023-08-09,G40.909,10123,G40909,"Epilepsy, unsp, not intractable, without status epilepticus",1987-04-03,Female,37,18-39
+V000020,PT00020,2024-09-17,J45.909,20234,J45909,"Unspecified asthma, uncomplicated",1959-12-25,Male,65,65+
+V000001,PT10001,2022-03-15,I10,54123,I10,Essential (primary) hypertension,1955-07-22,Female,69,65+
+V000002,PT10002,2022-04-22,E11.9,64612,E119,Type 2 diabetes mellitus without complications,1980-11-05,Female,44,40-64
+V000003,PT10003,2022-05-10,J45.909,99213,J45909,"Unspecified asthma, uncomplicated",1972-02-14,Female,52,40-64
+V000004,PT10004,2022-06-18,N39.0,36415,N390,"Urinary tract infection, site not specified",1968-09-30,Female,56,40-64
+V000005,PT10005,2023-01-03,I25.10,99214,I2510,Athscl heart disease of native coronary artery w/o ang pctrs,1952-03-19,Female,72,65+
+V000006,PT10006,2023-02-27,F41.1,99212,F411,Generalized anxiety disorder,2001-07-08,Female,23,18-39
+V000007,PT10007,2023-03-14,M54.5,97140,M545,Low back pain,1988-12-22,Female,36,18-39
+V000008,PT10008,2023-04-19,K21.9,99456,K219,Gastro-esophageal reflux disease without esophagitis ,1963-05-17,Male,61,40-64
+V000009,PT10009,2023-05-25,C50.912,99203,C50912,Malignant neoplasm of unspecified site of left female breast,1979-08-02,Female,45,40-64
+V000010,PT10010,2023-06-30,E78.5,93000,E785,"Hyperlipidemia, unspecified",1966-01-11,Male,58,40-64
+V000011,PT10011,2023-07-08,I11.9,99211,I119,Hypertensive heart disease without heart failure,1948-04-28,Female,76,65+
+V000012,PT10012,2023-08-16,J02.9,92587,J029,"Acute pharyngitis, unspecified",1995-09-03,Male,29,18-39
+V000013,PT10013,2024-01-12,Z00.00,99201,Z0000,Encntr for general adult medical exam w/o abnormal findings,1983-03-25,Female,41,40-64
+V000014,PT10014,2024-02-20,M17.11,99457,M1711,"Unilateral primary osteoarthritis, right knee",1992-06-14,Male,32,18-39
+V000015,PT10015,2024-03-28,I44.1,99204,I441,"Atrioventricular block, second degree",1960-10-30,Female,64,40-64
+V000016,PT10016,2024-04-15,E66.9,99215,E669,"Obesity, unspecified",1975-02-07,Male,49,40-64
+V000017,PT10017,2024-05-07,F32.9,66311,F329,"Major depressive disorder, single episode, unspecified",1987-01-19,Female,37,18-39
+V000018,PT10018,2024-06-01,G43.909,99202,G43909,"Migraine, unsp, not intractable, without status migrainosus",1991-12-29,Male,33,18-39
+V000019,PT10019,2024-07-22,C34.90,99214,C3490,Malignant neoplasm of unsp part of unsp bronchus or lung,1985-04-04,Female,39,18-39
+V000020,PT10020,2024-08-11,K35.80,99204,K3580,Unspecified acute appendicitis,1969-11-23,Male,55,40-64
+V000101,PT00001,2022-03-15,I10,10801,I10,Essential (primary) hypertension,1956-07-22,Male,68,65+
+V000102,PT00002,2022-05-02,E11.9,99213,E119,Type 2 diabetes mellitus without complications,1982-11-05,Female,42,40-64
+V000103,PT00003,2022-07-20,J45.909,94010,J45909,"Unspecified asthma, uncomplicated",1978-02-14,Male,46,40-64
+V000104,PT00004,2023-01-11,K21.9,99214,K219,Gastro-esophageal reflux disease without esophagitis ,2004-09-02,Female,20,18-39
+V000105,PT00005,2023-02-27,I25.10,93000,I2510,Athscl heart disease of native coronary artery w/o ang pctrs,1948-03-19,Male,76,65+
+V000106,PT00006,2023-04-08,N39.0,99212,N390,"Urinary tract infection, site not specified",1988-06-21,Female,36,18-39
+V000107,PT00007,2023-06-14,F41.9,90791,F419,"Anxiety disorder, unspecified",1992-08-15,Female,32,18-39
+V000108,PT00008,2023-08-25,M54.5,99203,M545,Low back pain,1970-12-01,Male,54,40-64
+V000109,PT00009,2024-02-09,E78.5,99215,E785,"Hyperlipidemia, unspecified",1960-04-28,Female,64,40-64
+V000110,PT00010,2024-04-17,G43.909,99204,G43909,"Migraine, unsp, not intractable, without status migrainosus",1985-05-30,Male,39,18-39
+V000111,PT00011,2024-06-22,Z00.00,99499,Z0000,Encntr for general adult medical exam w/o abnormal findings,1975-01-10,Female,49,40-64
+V000112,PT00012,2022-12-03,I50.9,99213,I509,"Heart failure, unspecified",1990-09-25,Male,34,18-39
+V000113,PT00013,2022-11-17,C34.90,71105,C3490,Malignant neoplasm of unsp part of unsp bronchus or lung,1968-03-03,Female,56,40-64
+V000114,PT00014,2023-09-09,J02.9,99213,J029,"Acute pharyngitis, unspecified",1983-07-19,Male,41,40-64
+V000115,PT00015,2023-10-30,N80.0,99214,N800,Endometriosis of uterus,1952-10-02,Female,72,65+
+V000116,PT00016,2024-03-12,R53.1,99409,R531,Weakness,1979-02-28,Male,45,40-64
+V000117,PT00017,2024-05-26,K35.30,44120,K3530,"Acute appendicitis with loc peritonitis, w/o perf or gangr",1962-11-12,Female,62,40-64
+V000118,PT00018,2022-08-04,E66.9,99211,E669,"Obesity, unspecified",1994-06-17,Female,30,18-39
+V000119,PT00019,2023-12-18,M62.838,99215,M62838,Other muscle spasm,1987-04-03,Female,37,18-39
+V000120,PT00020,2024-09-05,I10,99204,I10,Essential (primary) hypertension,1959-12-25,Male,65,65+
+V000001,PT00001,2022-03-15,I10,11234,I10,Essential (primary) hypertension,1956-07-22,Male,68,65+
+V000002,PT00002,2022-07-08,E11.9,22345,E119,Type 2 diabetes mellitus without complications,1982-11-05,Female,42,40-64
+V000003,PT00003,2023-01-22,I25.10,31234,I2510,Athscl heart disease of native coronary artery w/o ang pctrs,1978-02-14,Male,46,40-64
+V000004,PT00004,2023-04-30,J45.909,41002,J45909,"Unspecified asthma, uncomplicated",2004-09-02,Female,20,18-39
+V000005,PT00005,2022-12-11,N39.0,51007,N390,"Urinary tract infection, site not specified",1948-03-19,Male,76,65+
+V000006,PT00006,2024-02-20,F41.9,62011,F419,"Anxiety disorder, unspecified",1988-06-21,Female,36,18-39
+V000007,PT00007,2024-05-16,K21.9,55019,K219,Gastro-esophageal reflux disease without esophagitis ,1992-08-15,Female,32,18-39
+V000008,PT00008,2023-09-08,M54.5,15678,M545,Low back pain,1970-12-01,Male,54,40-64
+V000009,PT00009,2022-04-02,J06.9,23001,J069,"Acute upper respiratory infection, unspecified",1960-04-28,Female,64,40-64
+V000010,PT00010,2023-08-25,C34.90,34022,C3490,Malignant neoplasm of unsp part of unsp bronchus or lung,1985-05-30,Male,39,18-39
+V000011,PT00011,2022-10-14,E78.5,45016,E785,"Hyperlipidemia, unspecified",1975-01-10,Female,49,40-64
+V000012,PT00012,2023-11-02,I64.9,60004,I649,"Stroke, not specified as haemorrhage or infarction",1990-09-25,Male,34,18-39
+V000013,PT00013,2022-08-19,F32.9,67004,F329,"Major depressive disorder, single episode, unspecified",1968-03-03,Female,56,40-64
+V000014,PT00014,2024-03-07,M25.50,71003,M2550,Pain in unspecified joint,1983-07-19,Male,41,40-64
+V000015,PT00015,2023-06-18,R10.9,82007,R109,Unspecified abdominal pain,1952-10-02,Female,72,65+
+V000016,PT00016,2022-01-29,N18.9,94012,N189,"Chronic kidney disease, unspecified",1979-02-28,Male,45,40-64
+V000017,PT00017,2023-02-14,G43.909,95022,G43909,"Migraine, unsp, not intractable, without status migrainosus",1962-11-12,Female,62,40-64
+V000018,PT00018,2024-09-09,I10,98011,I10,Essential (primary) hypertension,1994-06-17,Female,30,18-39
+V000019,PT00019,2022-05-25,J02.9,21004,J029,"Acute pharyngitis, unspecified",1987-04-03,Female,37,18-39
+V000020,PT00020,2023-07-12,E78.0,26009,E780,Pure hypercholesterolemia,1959-12-25,Male,65,65+
+V000021,PT00021,2024-04-03,I10,52018,I10,Essential (primary) hypertension,1969-04-08,Male,55,40-64
+V000022,PT00022,2022-09-27,F41.1,54007,F411,Generalized anxiety disorder,1991-02-25,Female,33,18-39

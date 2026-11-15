@@ -8,3 +8,9 @@ Data Cleaning & Preparation
 EDA
 Analysis & Key Findings
 Limitations
+
+Demographics are taken from each patient's first appearance in the file since the DOB and Sex differ for each individual.
+
+Age is approximated as reference year minus birth year, as of 2024-12-18. It can overstate age by up to one year for patients whose birthday hadn’t yet occurred
+
+No patients below 18 years of age.
