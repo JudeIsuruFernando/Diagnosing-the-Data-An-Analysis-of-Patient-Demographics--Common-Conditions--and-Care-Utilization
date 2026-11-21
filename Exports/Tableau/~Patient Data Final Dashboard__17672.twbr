@@ -1,0 +1,1583 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20263.26.1022.1645                               -->
+<workbook _.fcp.WorkbookFingerprinting.true...author-id='1a10a9c3e802bebab35724d27de3403e670fd9d475be6dd18d89e2dbf1308bf2' _.fcp.WorkbookFingerprinting.true...creator-author-id='1a10a9c3e802bebab35724d27de3403e670fd9d475be6dd18d89e2dbf1308bf2' _.fcp.WorkbookFingerprinting.true...creator-license-type='public' _.fcp.WorkbookFingerprinting.true...creator-machine-id='abe62f1f111fe6c05176dbbbcf12c384d732c11ce5e23cb7021a8353f07366cd' _.fcp.WorkbookFingerprinting.true...license-type='public' _.fcp.WorkbookFingerprinting.true...machine-id='abe62f1f111fe6c05176dbbbcf12c384d732c11ce5e23cb7021a8353f07366cd' original-version='18.1' source-build='2026.3.0 (20263.26.1022.1645)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <_.fcp.WorkbookFingerprinting.true...WorkbookFingerprinting />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <repository-location id='FinalDashboard_17952568541150' path='/workbooks' revision='1.0' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='final_patient_visits' inline='true' name='federated.1oxmumu0awcakw16ci1ac0nmcm97' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='final_patient_visits' name='textscan.1tatvzm155qhql1aizwcu0l3f439'>
+            <connection class='textscan' directory='D:/Google Drive/Data Analysis Education/Portfolio Projects/Diagnosing the Data An Analysis of Patient Demographics, Common Conditions, and Care Utilization/Exports/CSV' filename='final_patient_visits.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1tatvzm155qhql1aizwcu0l3f439' name='final_patient_visits.csv' table='[final_patient_visits#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='visit_id' ordinal='0' />
+            <column datatype='string' name='patient_id' ordinal='1' />
+            <column datatype='date' name='visit_date' ordinal='2' />
+            <column datatype='string' name='icd_code' ordinal='3' />
+            <column datatype='string' name='cpt_code' ordinal='4' />
+            <column datatype='string' name='icd_code_clean' ordinal='5' />
+            <column datatype='string' name='icd_code_description' ordinal='6' />
+            <column datatype='date' name='date_of_birth' ordinal='7' />
+            <column datatype='string' name='patient_sex' ordinal='8' />
+            <column datatype='integer' name='dob_age' ordinal='9' />
+            <column datatype='string' name='age_bracket' ordinal='10' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[final_patient_visits.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>visit_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[visit_id]</local-name>
+            <parent-name>[final_patient_visits.csv]</parent-name>
+            <remote-alias>visit_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>patient_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[patient_id]</local-name>
+            <parent-name>[final_patient_visits.csv]</parent-name>
+            <remote-alias>patient_id</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>visit_date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[visit_date]</local-name>
+            <parent-name>[final_patient_visits.csv]</parent-name>
+            <remote-alias>visit_date</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>icd_code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[icd_code]</local-name>
+            <parent-name>[final_patient_visits.csv]</parent-name>
+            <remote-alias>icd_code</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cpt_code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[cpt_code]</local-name>
+            <parent-name>[final_patient_visits.csv]</parent-name>
+            <remote-alias>cpt_code</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>icd_code_clean</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[icd_code_clean]</local-name>
+            <parent-name>[final_patient_visits.csv]</parent-name>
+            <remote-alias>icd_code_clean</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>icd_code_description</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[icd_code_description]</local-name>
+            <parent-name>[final_patient_visits.csv]</parent-name>
+            <remote-alias>icd_code_description</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>date_of_birth</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[date_of_birth]</local-name>
+            <parent-name>[final_patient_visits.csv]</parent-name>
+            <remote-alias>date_of_birth</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>patient_sex</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[patient_sex]</local-name>
+            <parent-name>[final_patient_visits.csv]</parent-name>
+            <remote-alias>patient_sex</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dob_age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[dob_age]</local-name>
+            <parent-name>[final_patient_visits.csv]</parent-name>
+            <remote-alias>dob_age</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age_bracket</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[age_bracket]</local-name>
+            <parent-name>[final_patient_visits.csv]</parent-name>
+            <remote-alias>age_bracket</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;[federated.1oxmumu0awcakw16ci1ac0nmcm97]&quot;' value='Number of Visits' />
+        </aliases>
+      </column>
+      <column caption='Avg Events Per Patient' datatype='real' name='[Calculation_0237219734077442]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT([visit_id]) / COUNTD([patient_id])' />
+      </column>
+      <column caption='final_patient_visits.csv' datatype='table' name='[__tableau_internal_object_id__].[final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D]' role='measure' type='quantitative' />
+      <column caption='Age Bracket' datatype='string' name='[age_bracket]' role='dimension' type='nominal' />
+      <column caption='Cpt Code' datatype='string' name='[cpt_code]' role='dimension' type='nominal' />
+      <column caption='Date Of Birth' datatype='date' hidden='true' name='[date_of_birth]' role='dimension' type='ordinal' />
+      <column caption='Dob Age' datatype='integer' name='[dob_age]' role='measure' type='quantitative' />
+      <column caption='Icd Code' datatype='string' name='[icd_code]' role='dimension' type='nominal' />
+      <column caption='Icd Code Clean' datatype='string' hidden='true' name='[icd_code_clean]' role='dimension' type='nominal' />
+      <column caption='Icd Code Description' datatype='string' name='[icd_code_description]' role='dimension' type='nominal' />
+      <column caption='Patient Id' datatype='string' name='[patient_id]' role='dimension' type='nominal' />
+      <column caption='Patient Sex' datatype='string' name='[patient_sex]' role='dimension' type='nominal' />
+      <column caption='Visit Date' datatype='date' name='[visit_date]' role='dimension' type='ordinal' />
+      <column caption='Visit Id' datatype='string' name='[visit_id]' role='dimension' type='nominal' />
+      <column-instance column='[age_bracket]' derivation='None' name='[none:age_bracket:nk]' pivot='key' type='nominal' />
+      <column-instance column='[cpt_code]' derivation='None' name='[none:cpt_code:nk]' pivot='key' type='nominal' />
+      <column-instance column='[icd_code_description]' derivation='None' name='[none:icd_code_description:nk]' pivot='key' type='nominal' />
+      <column-instance column='[patient_sex]' derivation='None' name='[none:patient_sex:nk]' pivot='key' type='nominal' />
+      <extract count='-1' enabled='true' object-id='' units='records' user-specific='false'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='Data/TableauTemp/#TableauTemp_03ed0w21r43eti1e6pwbx0zccdrc.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='11/20/2026 02:58:55 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>visit_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[visit_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>visit_id</remote-alias>
+              <ordinal>0</ordinal>
+              <family>final_patient_visits.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>42</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>patient_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[patient_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>patient_id</remote-alias>
+              <ordinal>1</ordinal>
+              <family>final_patient_visits.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>42</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>visit_date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[visit_date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>visit_date</remote-alias>
+              <ordinal>2</ordinal>
+              <family>final_patient_visits.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>157</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>icd_code</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[icd_code]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>icd_code</remote-alias>
+              <ordinal>3</ordinal>
+              <family>final_patient_visits.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>55</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>cpt_code</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[cpt_code]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>cpt_code</remote-alias>
+              <ordinal>4</ordinal>
+              <family>final_patient_visits.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>129</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>icd_code_description</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[icd_code_description]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>icd_code_description</remote-alias>
+              <ordinal>5</ordinal>
+              <family>final_patient_visits.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>54</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>patient_sex</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[patient_sex]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>patient_sex</remote-alias>
+              <ordinal>6</ordinal>
+              <family>final_patient_visits.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>dob_age</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[dob_age]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>dob_age</remote-alias>
+              <ordinal>7</ordinal>
+              <family>final_patient_visits.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>29</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>age_bracket</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[age_bracket]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>age_bracket</remote-alias>
+              <ordinal>8</ordinal>
+              <family>final_patient_visits.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:icd_code_description:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Generalized anxiety disorder&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Unilateral primary osteoarthritis, right knee&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Athscl heart disease of native coronary artery w/o ang pctrs&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Calculus of kidney&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Osteoarthritis, unspecified site&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Encounter for routine child health examination without abnormal findings&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Low back pain&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Pure hypercholesterolemia&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Hyperlipidemia, unspecified&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Acute myocardial infarction, unspecified&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Insomnia, unspecified&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Unspecified osteoarthritis, unspecified site&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Heart failure, unspecified&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Unspecified abdominal pain&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Calculus of gallbladder w/o cholecystitis w/o obstruction&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Endometriosis of uterus&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Sepsis, unspecified organism&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;Unspecified asthma, uncomplicated&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Anemia, unspecified&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Myopia (nearsightedness)&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Athscl heart disease of native cor art w unstable ang pctrs&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Chronic kidney disease, unspecified&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Other inflammatory diseases of prostate&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Malignant neoplasm of unsp site of right female breast&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Migraine, unsp, not intractable, without status migrainosus&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Epilepsy, unsp, not intractable, without status epilepticus&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Stroke, not specified as haemorrhage or infarction&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Malignant melanoma of skin, unspecified&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Urinary tract infection, site not specified&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Weakness&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Acute pharyngitis, unspecified&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Malignant neoplasm of unsp part of right bronchus or lung&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Age-related osteoporosis w/o current pathological fracture&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Malignant neoplasm of unspecified site of left female breast&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Anxiety disorder, unspecified&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Obesity, unspecified&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Gastro-esophageal reflux disease without esophagitis&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Hypertensive heart disease without heart failure&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Unspecified acute appendicitis&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Major depressive disorder, single episode, unspecified&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Flu due to unidentified influenza virus w oth resp manifest&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Type 2 diabetes mellitus with hyperglycemia&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Encntr for general adult medical exam w/o abnormal findings&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Essential (primary) hypertension&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Other muscle spasm&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Acute upper respiratory infection, unspecified&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Malignant neoplasm of unsp part of unsp bronchus or lung&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Acute appendicitis with loc peritonitis, w/o perf or gangr&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Hypothyroidism, unspecified&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Unspecified atrial fibrillation&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;Type 2 diabetes mellitus without complications&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Atrioventricular block, second degree&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Encounter for routine child health examination with abnormal findings&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Pain in unspecified joint&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:age_bracket:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;18-39&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;65+&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;40-64&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:patient_sex:nk]' palette='cyclic_10_0' type='palette'>
+            <map to='#1ba3c6'>
+              <bucket>&quot;Female&quot;</bucket>
+            </map>
+            <map to='#4f7cba'>
+              <bucket>&quot;Male&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:cpt_code:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;10001&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;10004&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;11223&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;1234&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;12345&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;56789&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;10020&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;33445&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;45678&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;99211&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;99212&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;99213&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;55667&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;78901&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;88990&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;90123&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;99214&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;99215&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;10015&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;22334&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;34567&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;44556&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;54123&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;67890&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;89012&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;10005&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;10006&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;11234&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;22345&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;23456&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;99012&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;99204&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Sri Lanka&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='visit_id' />
+        <field-sort-custom-order field='patient_id' />
+        <field-sort-custom-order field='visit_date' />
+        <field-sort-custom-order field='icd_code' />
+        <field-sort-custom-order field='cpt_code' />
+        <field-sort-custom-order field='icd_code_description' />
+        <field-sort-custom-order field='patient_sex' />
+        <field-sort-custom-order field='dob_age' />
+        <field-sort-custom-order field='age_bracket' />
+        <field-sort-custom-order field='Calculation_0237219734077442' />
+        <field-sort-custom-order field='date_of_birth' />
+        <field-sort-custom-order field='icd_code_clean' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <object-graph>
+        <objects>
+          <object caption='final_patient_visits.csv' id='final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D'>
+            <properties context=''>
+              <relation connection='textscan.1tatvzm155qhql1aizwcu0l3f439' name='final_patient_visits.csv' table='[final_patient_visits#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='string' name='visit_id' ordinal='0' />
+                  <column datatype='string' name='patient_id' ordinal='1' />
+                  <column datatype='date' name='visit_date' ordinal='2' />
+                  <column datatype='string' name='icd_code' ordinal='3' />
+                  <column datatype='string' name='cpt_code' ordinal='4' />
+                  <column datatype='string' name='icd_code_clean' ordinal='5' />
+                  <column datatype='string' name='icd_code_description' ordinal='6' />
+                  <column datatype='date' name='date_of_birth' ordinal='7' />
+                  <column datatype='string' name='patient_sex' ordinal='8' />
+                  <column datatype='integer' name='dob_age' ordinal='9' />
+                  <column datatype='string' name='age_bracket' ordinal='10' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <shared-views>
+    <shared-view name='federated.1oxmumu0awcakw16ci1ac0nmcm97'>
+      <datasources>
+        <datasource caption='final_patient_visits' name='federated.1oxmumu0awcakw16ci1ac0nmcm97' />
+      </datasources>
+      <datasource-dependencies datasource='federated.1oxmumu0awcakw16ci1ac0nmcm97'>
+        <column caption='Age Bracket' datatype='string' name='[age_bracket]' role='dimension' type='nominal' />
+        <column-instance column='[age_bracket]' derivation='None' name='[none:age_bracket:nk]' pivot='key' type='nominal' />
+        <column-instance column='[patient_sex]' derivation='None' name='[none:patient_sex:nk]' pivot='key' type='nominal' />
+        <column caption='Patient Sex' datatype='string' name='[patient_sex]' role='dimension' type='nominal' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.1oxmumu0awcakw16ci1ac0nmcm97].[none:age_bracket:nk]' context='true'>
+        <groupfilter function='level-members' level='[none:age_bracket:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+        <target field='[federated.1oxmumu0awcakw16ci1ac0nmcm97].[none:age_bracket:nk]' />
+      </filter>
+      <filter class='categorical' column='[federated.1oxmumu0awcakw16ci1ac0nmcm97].[none:patient_sex:nk]' context='true'>
+        <groupfilter function='member' level='[none:patient_sex:nk]' member='&quot;Male&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+        <target field='[federated.1oxmumu0awcakw16ci1ac0nmcm97].[none:patient_sex:nk]' />
+      </filter>
+    </shared-view>
+  </shared-views>
+  <worksheets>
+    <worksheet name='Avg Visits Per Patient'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='final_patient_visits' name='federated.1oxmumu0awcakw16ci1ac0nmcm97' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1oxmumu0awcakw16ci1ac0nmcm97'>
+            <column caption='Avg Events Per Patient' datatype='real' name='[Calculation_0237219734077442]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([visit_id]) / COUNTD([patient_id])' />
+            </column>
+            <column caption='Age Bracket' datatype='string' name='[age_bracket]' role='dimension' type='nominal' />
+            <column-instance column='[age_bracket]' derivation='None' name='[none:age_bracket:nk]' pivot='key' type='nominal' />
+            <column-instance column='[patient_sex]' derivation='None' name='[none:patient_sex:nk]' pivot='key' type='nominal' />
+            <column caption='Patient Id' datatype='string' name='[patient_id]' role='dimension' type='nominal' />
+            <column caption='Patient Sex' datatype='string' name='[patient_sex]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_0237219734077442]' derivation='User' name='[usr:Calculation_0237219734077442:qk]' pivot='key' type='quantitative' />
+            <column caption='Visit Id' datatype='string' name='[visit_id]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.1oxmumu0awcakw16ci1ac0nmcm97].[none:age_bracket:nk]</column>
+            <column>[federated.1oxmumu0awcakw16ci1ac0nmcm97].[none:patient_sex:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1oxmumu0awcakw16ci1ac0nmcm97].[usr:Calculation_0237219734077442:qk]' value='n#,##0;-#,##0' />
+            <format attr='height' value='163' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.1oxmumu0awcakw16ci1ac0nmcm97].[usr:Calculation_0237219734077442:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='12'>Average Visits Per Patient </run>
+                <run>Æ&#10;</run>
+                <run fontsize='18'><![CDATA[<[federated.1oxmumu0awcakw16ci1ac0nmcm97].[usr:Calculation_0237219734077442:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='0.73563534021377563' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{E172644A-CFAF-4252-9529-BDDEC1125849}' />
+    </worksheet>
+    <worksheet name='High Utilizers (4+ Events)'>
+      <layout-options>
+        <caption>
+          <formatted-text>
+            <run bold='true' fontsize='16'>High utilizers are patients with 4+ visits</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='final_patient_visits' name='federated.1oxmumu0awcakw16ci1ac0nmcm97' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1oxmumu0awcakw16ci1ac0nmcm97'>
+            <column-instance column='[__tableau_internal_object_id__].[final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D:qk]' pivot='key' type='quantitative' />
+            <column caption='final_patient_visits.csv' datatype='table' name='[__tableau_internal_object_id__].[final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D]' role='measure' type='quantitative' />
+            <column caption='Age Bracket' datatype='string' name='[age_bracket]' role='dimension' type='nominal' />
+            <column-instance column='[age_bracket]' derivation='None' name='[none:age_bracket:nk]' pivot='key' type='nominal' />
+            <column-instance column='[patient_id]' derivation='None' name='[none:patient_id:nk]' pivot='key' type='nominal' />
+            <column-instance column='[patient_sex]' derivation='None' name='[none:patient_sex:nk]' pivot='key' type='nominal' />
+            <column caption='Patient Id' datatype='string' name='[patient_id]' role='dimension' type='nominal' />
+            <column caption='Patient Sex' datatype='string' name='[patient_sex]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1oxmumu0awcakw16ci1ac0nmcm97].[__tableau_internal_object_id__].[cnt:final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D:qk]' included-values='in-range'>
+            <min>4</min>
+          </filter>
+          <slices>
+            <column>[federated.1oxmumu0awcakw16ci1ac0nmcm97].[none:age_bracket:nk]</column>
+            <column>[federated.1oxmumu0awcakw16ci1ac0nmcm97].[none:patient_sex:nk]</column>
+            <column>[federated.1oxmumu0awcakw16ci1ac0nmcm97].[__tableau_internal_object_id__].[cnt:final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='color' value='#000000' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='color' scope='rows' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1oxmumu0awcakw16ci1ac0nmcm97].[__tableau_internal_object_id__].[cnt:final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1oxmumu0awcakw16ci1ac0nmcm97].[none:patient_id:nk] / ([federated.1oxmumu0awcakw16ci1ac0nmcm97].[none:patient_sex:nk] / [federated.1oxmumu0awcakw16ci1ac0nmcm97].[none:age_bracket:nk]))</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{5717AEC4-A2D2-4929-81AE-5ACF8445AF0E}' />
+    </worksheet>
+    <worksheet name='Patient Demographics by Age'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='22'>Patient Demographics by Age</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run bold='true' fontsize='16'>No patients under the age of 18</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='final_patient_visits' name='federated.1oxmumu0awcakw16ci1ac0nmcm97' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1oxmumu0awcakw16ci1ac0nmcm97'>
+            <column caption='Age Bracket' datatype='string' name='[age_bracket]' role='dimension' type='nominal' />
+            <column-instance column='[patient_id]' derivation='CountD' name='[ctd:patient_id:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[age_bracket]' derivation='None' name='[none:age_bracket:nk]' pivot='key' type='nominal' />
+            <column-instance column='[patient_sex]' derivation='None' name='[none:patient_sex:nk]' pivot='key' type='nominal' />
+            <column caption='Patient Id' datatype='string' name='[patient_id]' role='dimension' type='nominal' />
+            <column caption='Patient Sex' datatype='string' name='[patient_sex]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.1oxmumu0awcakw16ci1ac0nmcm97].[none:age_bracket:nk]</column>
+            <column>[federated.1oxmumu0awcakw16ci1ac0nmcm97].[none:patient_sex:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1oxmumu0awcakw16ci1ac0nmcm97].[ctd:patient_id:qk]' scope='rows' value='Number of Patients' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1oxmumu0awcakw16ci1ac0nmcm97].[none:age_bracket:nk]' value='268' />
+            <format attr='text-align' data-class='total' field='[federated.1oxmumu0awcakw16ci1ac0nmcm97].[ctd:patient_id:qk]' value='auto' />
+            <format attr='vertical-align' data-class='total' field='[federated.1oxmumu0awcakw16ci1ac0nmcm97].[ctd:patient_id:qk]' value='auto' />
+            <format attr='color' data-class='subtotal' field='[federated.1oxmumu0awcakw16ci1ac0nmcm97].[ctd:patient_id:qk]' value='#000000' />
+            <format attr='font-weight' data-class='subtotal' field='[federated.1oxmumu0awcakw16ci1ac0nmcm97].[ctd:patient_id:qk]' value='bold' />
+            <format attr='font-weight' data-class='total' field='[federated.1oxmumu0awcakw16ci1ac0nmcm97].[ctd:patient_id:qk]' value='bold' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1oxmumu0awcakw16ci1ac0nmcm97].[none:age_bracket:nk]' />
+              <text column='[federated.1oxmumu0awcakw16ci1ac0nmcm97].[ctd:patient_id:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='auto' />
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='user' />
+                <format attr='font-weight' value='bold' />
+                <format attr='font-size' value='15' />
+                <format attr='color' value='#000000' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1oxmumu0awcakw16ci1ac0nmcm97].[ctd:patient_id:qk]</rows>
+        <cols>[federated.1oxmumu0awcakw16ci1ac0nmcm97].[none:age_bracket:nk]</cols>
+      </table>
+      <simple-id uuid='{28A48174-ABF2-404A-85F2-4222F1E04257}' />
+    </worksheet>
+    <worksheet name='Top 10 CPT Codes'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='18'>Top 10 CPT Codes</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='final_patient_visits' name='federated.1oxmumu0awcakw16ci1ac0nmcm97' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1oxmumu0awcakw16ci1ac0nmcm97'>
+            <column-instance column='[__tableau_internal_object_id__].[final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D:qk]' pivot='key' type='quantitative' />
+            <column caption='final_patient_visits.csv' datatype='table' name='[__tableau_internal_object_id__].[final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D]' role='measure' type='quantitative' />
+            <column caption='Age Bracket' datatype='string' name='[age_bracket]' role='dimension' type='nominal' />
+            <column-instance column='[cpt_code]' derivation='Count' name='[cnt:cpt_code:qk]' pivot='key' type='quantitative' />
+            <column caption='Cpt Code' datatype='string' name='[cpt_code]' role='dimension' type='nominal' />
+            <column-instance column='[age_bracket]' derivation='None' name='[none:age_bracket:nk]' pivot='key' type='nominal' />
+            <column-instance column='[cpt_code]' derivation='None' name='[none:cpt_code:nk]' pivot='key' type='nominal' />
+            <column-instance column='[patient_sex]' derivation='None' name='[none:patient_sex:nk]' pivot='key' type='nominal' />
+            <column caption='Patient Sex' datatype='string' name='[patient_sex]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1oxmumu0awcakw16ci1ac0nmcm97].[none:cpt_code:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='COUNT([__tableau_internal_object_id__].[final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:cpt_code:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1oxmumu0awcakw16ci1ac0nmcm97].[none:cpt_code:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1oxmumu0awcakw16ci1ac0nmcm97].[__tableau_internal_object_id__].[cnt:final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1oxmumu0awcakw16ci1ac0nmcm97].[none:age_bracket:nk]</column>
+            <column>[federated.1oxmumu0awcakw16ci1ac0nmcm97].[none:patient_sex:nk]</column>
+            <column>[federated.1oxmumu0awcakw16ci1ac0nmcm97].[none:cpt_code:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1oxmumu0awcakw16ci1ac0nmcm97].[__tableau_internal_object_id__].[cnt:final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D:qk]' scope='cols' value='' />
+            <encoding attr='space' class='0' field='[federated.1oxmumu0awcakw16ci1ac0nmcm97].[__tableau_internal_object_id__].[cnt:final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D:qk]' field-type='quantitative' max='8' min='0' range-type='fixed' scope='cols' type='space' />
+            <format attr='display' class='0' field='[federated.1oxmumu0awcakw16ci1ac0nmcm97].[__tableau_internal_object_id__].[cnt:final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D:qk]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.1oxmumu0awcakw16ci1ac0nmcm97].[none:cpt_code:nk]' value='56' />
+            <format attr='height' field='[federated.1oxmumu0awcakw16ci1ac0nmcm97].[cnt:cpt_code:qk]' value='56' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1oxmumu0awcakw16ci1ac0nmcm97].[none:cpt_code:nk]' />
+              <text column='[federated.1oxmumu0awcakw16ci1ac0nmcm97].[cnt:cpt_code:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='12'>&lt;</run>
+                <run bold='true' fontsize='12'>[federated.1oxmumu0awcakw16ci1ac0nmcm97].[cnt:cpt_code:qk]</run>
+                <run bold='true' fontsize='12'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='user' />
+                <format attr='color' value='#000000' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1oxmumu0awcakw16ci1ac0nmcm97].[none:cpt_code:nk]</rows>
+        <cols>[federated.1oxmumu0awcakw16ci1ac0nmcm97].[__tableau_internal_object_id__].[cnt:final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D:qk]</cols>
+      </table>
+      <simple-id uuid='{D4B39090-48FB-459F-8110-FD800EBE1760}' />
+    </worksheet>
+    <worksheet name='Top 10 Diagnoses'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='22'>Top 10 Diagnoses</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run bold='true' fontsize='16'>Since the sample sizes are small, please intepret views with caution!</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='final_patient_visits' name='federated.1oxmumu0awcakw16ci1ac0nmcm97' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1oxmumu0awcakw16ci1ac0nmcm97'>
+            <column-instance column='[__tableau_internal_object_id__].[final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D:qk]' pivot='key' type='quantitative' />
+            <column caption='final_patient_visits.csv' datatype='table' name='[__tableau_internal_object_id__].[final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D]' role='measure' type='quantitative' />
+            <column caption='Age Bracket' datatype='string' name='[age_bracket]' role='dimension' type='nominal' />
+            <column caption='Icd Code Description' datatype='string' name='[icd_code_description]' role='dimension' type='nominal' />
+            <column-instance column='[age_bracket]' derivation='None' name='[none:age_bracket:nk]' pivot='key' type='nominal' />
+            <column-instance column='[icd_code_description]' derivation='None' name='[none:icd_code_description:nk]' pivot='key' type='nominal' />
+            <column-instance column='[patient_sex]' derivation='None' name='[none:patient_sex:nk]' pivot='key' type='nominal' />
+            <column caption='Patient Sex' datatype='string' name='[patient_sex]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1oxmumu0awcakw16ci1ac0nmcm97].[none:icd_code_description:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='COUNT([__tableau_internal_object_id__].[final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:icd_code_description:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1oxmumu0awcakw16ci1ac0nmcm97].[none:icd_code_description:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1oxmumu0awcakw16ci1ac0nmcm97].[__tableau_internal_object_id__].[cnt:final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1oxmumu0awcakw16ci1ac0nmcm97].[none:age_bracket:nk]</column>
+            <column>[federated.1oxmumu0awcakw16ci1ac0nmcm97].[none:patient_sex:nk]</column>
+            <column>[federated.1oxmumu0awcakw16ci1ac0nmcm97].[none:icd_code_description:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1oxmumu0awcakw16ci1ac0nmcm97].[__tableau_internal_object_id__].[cnt:final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D:qk]' scope='cols' value='' />
+            <format attr='display' class='0' field='[federated.1oxmumu0awcakw16ci1ac0nmcm97].[__tableau_internal_object_id__].[cnt:final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D:qk]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.1oxmumu0awcakw16ci1ac0nmcm97].[none:icd_code_description:nk]' value='51' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1oxmumu0awcakw16ci1ac0nmcm97].[none:icd_code_description:nk]' />
+              <text column='[federated.1oxmumu0awcakw16ci1ac0nmcm97].[__tableau_internal_object_id__].[cnt:final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='user' />
+                <format attr='font-weight' value='bold' />
+                <format attr='color' value='#000000' />
+                <format attr='font-size' value='10' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1oxmumu0awcakw16ci1ac0nmcm97].[none:icd_code_description:nk]</rows>
+        <cols>[federated.1oxmumu0awcakw16ci1ac0nmcm97].[__tableau_internal_object_id__].[cnt:final_patient_visits.csv_A92982A012AE4DC9BC555F9DF069498D:qk]</cols>
+      </table>
+      <simple-id uuid='{80371E32-8D8F-41A8-9187-B964652485E2}' />
+    </worksheet>
+    <worksheet name='Total Patients'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='final_patient_visits' name='federated.1oxmumu0awcakw16ci1ac0nmcm97' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1oxmumu0awcakw16ci1ac0nmcm97'>
+            <column caption='Age Bracket' datatype='string' name='[age_bracket]' role='dimension' type='nominal' />
+            <column-instance column='[patient_id]' derivation='CountD' name='[ctd:patient_id:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[age_bracket]' derivation='None' name='[none:age_bracket:nk]' pivot='key' type='nominal' />
+            <column-instance column='[patient_sex]' derivation='None' name='[none:patient_sex:nk]' pivot='key' type='nominal' />
+            <column caption='Patient Id' datatype='string' name='[patient_id]' role='dimension' type='nominal' />
+            <column caption='Patient Sex' datatype='string' name='[patient_sex]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.1oxmumu0awcakw16ci1ac0nmcm97].[none:age_bracket:nk]</column>
+            <column>[federated.1oxmumu0awcakw16ci1ac0nmcm97].[none:patient_sex:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.1oxmumu0awcakw16ci1ac0nmcm97].[ctd:patient_id:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='12'>Total Patients</run>
+                <run>Æ&#10;</run>
+                <run fontsize='18'><![CDATA[<[federated.1oxmumu0awcakw16ci1ac0nmcm97].[ctd:patient_id:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='0.73563534021377563' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{E3F96147-66FC-493B-AA20-139C433D51D3}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Final Dashboard'>
+      <style />
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='final_patient_visits' name='federated.1oxmumu0awcakw16ci1ac0nmcm97' />
+      </datasources>
+      <datasource-dependencies datasource='federated.1oxmumu0awcakw16ci1ac0nmcm97'>
+        <column caption='Age Bracket' datatype='string' name='[age_bracket]' role='dimension' type='nominal' />
+        <column-instance column='[age_bracket]' derivation='None' name='[none:age_bracket:nk]' pivot='key' type='nominal' />
+        <column-instance column='[patient_sex]' derivation='None' name='[none:patient_sex:nk]' pivot='key' type='nominal' />
+        <column caption='Patient Sex' datatype='string' name='[patient_sex]' role='dimension' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97766' id='22' param='horz' type-v2='layout-flow' w='98878' x='561' y='1117'>
+            <zone h='97766' id='20' param='horz' type-v2='layout-flow' w='67207' x='561' y='1117'>
+              <zone h='97766' id='5' type-v2='layout-basic' w='67207' x='561' y='1117'>
+                <zone h='80521' id='8' name='Top 10 Diagnoses' w='23945' x='21135' y='18362'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='80521' id='12' name='Top 10 CPT Codes' w='22688' x='45080' y='18362'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='17245' id='15' name='Total Patients' show-title='false' w='33602' x='561' y='1117'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='17245' id='26' name='Avg Visits Per Patient' show-title='false' w='33605' x='34163' y='1117'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='80521' id='27' name='High Utilizers (4+ Events)' w='20574' x='561' y='18362'>
+                  <layout-cache type-h='cell' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+            <zone fixed-size='508' h='97766' id='21' is-fixed='true' param='vert' type-v2='layout-flow' w='31671' x='67768' y='1117'>
+              <zone h='8685' id='23' mode='dropdown' name='Top 10 Diagnoses' param='[federated.1oxmumu0awcakw16ci1ac0nmcm97].[none:patient_sex:nk]' type-v2='filter' values='database' w='31671' x='67768' y='1117'>
+                <zone-style>
+                  <format attr='border-color' value='#444444' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone fixed-size='73' h='10050' id='24' is-fixed='true' mode='dropdown' name='Top 10 Diagnoses' param='[federated.1oxmumu0awcakw16ci1ac0nmcm97].[none:age_bracket:nk]' type-v2='filter' values='database' w='31671' x='67768' y='9802'>
+                <zone-style>
+                  <format attr='border-color' value='#444444' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='79031' id='3' name='Patient Demographics by Age' w='31671' x='67768' y='19852'>
+                <layout-cache cell-count-w='1' minheight='264' non-cell-size-w='67' type-h='scalable' type-w='cell' />
+                <zone-style>
+                  <format attr='border-color' value='#444444' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#72b966' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='1' />
+            <format attr='margin' value='8' />
+            <format attr='background-color' value='#dfedeb' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1550' minheight='1550' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='35' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98014' id='34' param='vert' type-v2='layout-flow' w='98968' x='516' y='993'>
+                <zone fixed-size='130' h='17245' id='15' is-fixed='true' name='Total Patients' show-title='false' w='33043' x='580' y='1117'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='130' h='17245' id='26' is-fixed='true' name='Avg Visits Per Patient' show-title='false' w='33044' x='33623' y='1117'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='80521' id='27' is-fixed='true' name='High Utilizers (4+ Events)' w='17825' x='580' y='18362'>
+                  <layout-cache type-h='cell' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8685' id='23' mode='dropdown' name='Top 10 Diagnoses' param='[federated.1oxmumu0awcakw16ci1ac0nmcm97].[none:patient_sex:nk]' type-v2='filter' values='database' w='32753' x='66667' y='1117'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='73' h='10050' id='24' mode='dropdown' name='Top 10 Diagnoses' param='[federated.1oxmumu0awcakw16ci1ac0nmcm97].[none:age_bracket:nk]' type-v2='filter' values='database' w='32753' x='66667' y='9802'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='80521' id='8' is-fixed='true' name='Top 10 Diagnoses' w='25953' x='18405' y='18362'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='80521' id='12' is-fixed='true' name='Top 10 CPT Codes' w='22309' x='44358' y='18362'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='79031' id='3' is-fixed='true' name='Patient Demographics by Age' w='32753' x='66667' y='19852'>
+                  <layout-cache cell-count-w='3' minheight='264' non-cell-size-w='67' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#72b966' />
+                <format attr='border-style' value='solid' />
+                <format attr='border-width' value='1' />
+                <format attr='margin' value='8' />
+                <format attr='background-color' value='#dfedeb' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{3A9C138C-9AED-4266-BCAE-DCBEC7FB3BAC}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='44'>
+    <window class='worksheet' name='Patient Demographics by Age'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='94'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{648EC3FA-489F-4AF2-A2CD-E0A4638B0D69}' />
+    </window>
+    <window class='worksheet' name='Top 10 Diagnoses'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='radiolist' param='[federated.1oxmumu0awcakw16ci1ac0nmcm97].[none:age_bracket:nk]' type='filter' />
+            <card mode='radiolist' param='[federated.1oxmumu0awcakw16ci1ac0nmcm97].[none:patient_sex:nk]' type='filter' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='94'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1C3D8A8E-7A31-4A32-B571-014030B50272}' />
+    </window>
+    <window class='worksheet' name='Total Patients'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{1B553AE7-FE4D-4463-BA23-0EE01DAA2A5D}' />
+    </window>
+    <window class='worksheet' name='Avg Visits Per Patient'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{616B1F39-DA0F-4FD7-9131-BC5936CCE617}' />
+    </window>
+    <window class='worksheet' name='Top 10 CPT Codes'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1oxmumu0awcakw16ci1ac0nmcm97].[none:cpt_code:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{603E7CE6-CACE-40BA-A6EB-4926B4909BCD}' />
+    </window>
+    <window class='worksheet' name='High Utilizers (4+ Events)'>
+      <cards>
+        <edge name='left'>
+          <strip size='158'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='94'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{221073F8-11BE-45DB-A1E0-F0EF5E9F140B}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Final Dashboard'>
+      <viewpoints>
+        <viewpoint name='Avg Visits Per Patient'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='High Utilizers (4+ Events)'>
+          <zoom type='fit-height' />
+        </viewpoint>
+        <viewpoint name='Patient Demographics by Age'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Top 10 CPT Codes' />
+        <viewpoint name='Top 10 Diagnoses' />
+        <viewpoint name='Total Patients'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='23' />
+      <simple-id uuid='{1885F851-BE21-469D-88AD-4023511A3173}' />
+    </window>
+  </windows>
+</workbook>
