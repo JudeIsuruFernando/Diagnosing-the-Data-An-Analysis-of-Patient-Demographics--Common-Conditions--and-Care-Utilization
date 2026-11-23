@@ -99,8 +99,7 @@ With this dashboard, the clinic can understand its patient mix, most common cond
 
 *Full notebook available in [:link:Data Cleaning & Analysis Notebook](Notebooks/Data%20Cleaning%20and%20Analysis.ipynb)*
 
-*View the interactive dashboard [:link:here]((https://public.tableau.com/app/profile/jude.isuru.fernando/viz/PatientDataFinalDashboard/FinalDashboard))*
-
+*View the interactive dashboard [:link:here](https://public.tableau.com/app/profile/jude.isuru.fernando/viz/PatientDataFinalDashboard/FinalDashboard)*
 
 ### Patient Population Demographics Breakdown
 
